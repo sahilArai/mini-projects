@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+
+        <header class="header">
+            <h1 class="title">Employee Database</h1>
+            <button type="button" class="addEmployeeBtn">Add Employee</button>
+        </header>
+
+        <div class="main">
+
+            <div class="employeeListSection">
+                <h1 class="EmployeeListTitle">List Of Employee</h1>
+                <div class="employeeList">
+                    <ul class="unorderdList">
+                        <!-- <li class="list">first employee <span>❌</span></li>
+                        <li class="list">first employee <span>❌</span></li>
+                        <li class="list">first employee <span>❌</span></li> -->
+                    </ul>
+                </div>
+            </div>
+            <div class="employeeInfoSection">
+                <h1 class="employeeInfoTitle">Employee's Information</h1>
+                <div class="employeeInfo">
+                    <!-- <img src="https://cdn-icons-png.flaticon.com/512/0/93.png"" alt="" srcset="">
+                    <h1>Sahil arai</h1>
+                    <div class="details">
+                        <p>age : 18</p>
+                        <p>DOB : 12/07/2003</p>
+                        <p>Contact : 9146798380</p>
+                        <p>E-mail : abc@gmail.com/p>
+                        <p>Address : abc12345/p>
+                        <p>Salary : 35000/p>
+                    </div> -->
+                    
+                </div>
+            </div>
+        </div>       
+    </div>
+    <div class="formContainer">
+        <form class="addEmployeeForm">
+            <div class="formHeader">
+                <h2>Add New Employee</h2>
+                <span class="close">✖</span>
+            </div>
+            <div class="name">
+                <input type="text" name="firstName" placeholder="first Name" >
+                <input type="text" name="lastName" placeholder="last Name" >
+            </div>
+            <input type="text" name="imageUrl" placeholder="Profile Url (Optional)"  >
+            <input type="date" name="dob" placeholder="Date-Of-Birth" required>
+            <input type="number" name="contactNumber" placeholder="Contact" required>
+            <input type="email" name="email" placeholder="E-mail" required>
+            <input type="number" name="salary" placeholder="Salary" required>
+            <input type="text" name="address" placeholder="Address" required >
+            <input type="submit" value="submit" class="submitBtn">
+
+        </form>
+    </div>
+   
+    <script src="script.js"></script>
+</body>
+</html>
