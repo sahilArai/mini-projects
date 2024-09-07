@@ -40,15 +40,15 @@
             selectEmployee()            
             employeeInfo.innerHTML = `
                 <img src=${selectedEmployee.imageUrl} alt="image">
-                       <h1>${selectedEmployee.firstName} ${selectedEmployee.lastName}  </h1>
-                       <div class="details">
-                           <p>age : ${selectedEmployee.age}</p>
-                           <p>DOB : ${selectedEmployee.dob}</p>
-                           <p>Contact : ${selectedEmployee.contactNumber}</p>
-                           <p>E-mail : ${selectedEmployee.email}</p>
-                           <p>Address : ${selectedEmployee.address}</p>
-                           <p>Salary : ${selectedEmployee.salary}</p>
-                       </div>
+                <h1>${selectedEmployee.firstName} ${selectedEmployee.lastName}  </h1>
+                <div class="details">
+                    <p>age : ${selectedEmployee.age}</p>
+                    <p>DOB : ${selectedEmployee.dob}</p>
+                    <p>Contact : ${selectedEmployee.contactNumber}</p>
+                    <p>E-mail : ${selectedEmployee.email}</p>
+                    <p>Address : ${selectedEmployee.address}</p>
+                    <p>Salary : ${selectedEmployee.salary}</p>
+                </div>
             `
         }
         
