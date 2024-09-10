@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    padding: 20px;
+}
+.timerSection{
+    display: flex;
+}
+.hoursSec,
+.minutesSec,
+.secondsSec{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    align-items: center;
+}
+input{
+    outline: none;
+    border: none;
+    width: 140px;
+    padding: 5px;
+    font-size: 100px;
+    text-align: end;
+}
+.buttonSection{
+    width: 100%;
+}
+button{
+    padding: 10px;
+    width: 49%;
+    cursor: pointer;
+}
+.startBtn{
+    background-color: green;
+    color: white;
+    border: 1px solid rgb(163, 163, 163);
+    border-radius: 5px;
+}
+.startBtn:hover{
+    background-color: rgb(5, 105, 5);
+}
+.resetBtn{
+    background-color: red;
+    color: white;
+    border: 1px solid rgb(163, 163, 163);
+    border-radius: 5px;
+}
+.resetBtn:hover{
+    background-color: rgb(204, 16, 16);
+}

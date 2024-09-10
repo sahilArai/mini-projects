@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Countdown </title>
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <div class="timerSection">
+                <div class="hoursSec">
+                    <label>Hours</label>
+                    <input 
+                        type="number"  
+                        placeholder="00"
+                        class="hours"
+                        oninput="this.value = this.value.slice(0,2)"
+                    >
+                </div>
+                <div class="minutesSec">
+                    <label>Minutes</label>
+                    <input 
+                        type="number"  
+                        placeholder="00"
+                        class="minutes"
+                        oninput="this.value = this.value.slice(0,2)"
+                    >
+                </div>
+                <div class="secondsSec">
+                    <label>hours</label>
+                    <input 
+                        type="number"  
+                        placeholder="00"
+                        class="seconds"
+                        oninput="this.value = this.value.slice(0,2)"
+                    >
+                </div>
+            </div>
+
+            <div class="buttonSection">
+                <button type="button" class="startBtn">Start</button>
+                <button type="button" class="resetBtn">Reset</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
